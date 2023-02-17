@@ -1,0 +1,76 @@
+{
+    "name": "FoxMove",
+    "maps": [
+        {
+            "name": "FoxMoveMap",
+            "id": "01207e3e-51b4-4a5a-8237-131823c009c5",
+            "actions": [
+                {
+                    "name": "FoxMove",
+                    "type": "Value",
+                    "id": "1b86d951-6022-4a78-adb2-3832383e5451",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "FoxJump",
+                    "type": "Button",
+                    "id": "7dc6b212-a2e9-43ec-bb39-45f98ca9fecd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "915f1c69-9df8-4e69-ace1-57c2dbc1e8b2",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FoxMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "c74fb1e7-f783-4e9a-a68b-f9822c9c96ba",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FoxMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "af256fd8-3337-4356-835e-9b097521e29b",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FoxMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "a4bd04ae-e0da-4f19-8314-e0c9709cea69",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FoxJump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
